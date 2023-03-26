@@ -1,3 +1,7 @@
 # Fake News Detector
-Using machine learning to distinguish between fake and real news articles  
-Status: data preprocessing is done, rest is on hold until we learn about CNNs in class
+Using a neural network to distinguish between fake and real news articles by their headlines  
+Status: accuracy could be better, next step is to explore different word embeddings  
+
+## To Use
+Run `detect.py`  
+Program will output a line for each epoch, then a final accuracy score
